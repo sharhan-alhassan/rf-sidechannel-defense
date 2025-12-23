@@ -362,13 +362,12 @@ Research Interests: CPS Security, MLSys Security, Cloud Security, Embedded AI, I
 If you use this work in your research, please cite:
 
 ```sh
-bibtex@misc{sidechannel-defense-2024,
-  author = {Your Name},
+bibtex@misc{sidechannel-defense-2025,
+  author = Sharhan Alhassan,
   title = {RF Side-Channel Defense via On-Device Machine Learning},
-  year = {2024},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{https://github.com/yourusername/rf-sidechannel-defense}}
+  year = {2025},
+  publisher = {https://github.com/sharhan-alhassan},
+  howpublished = {\url{https://github.com/sharhan-alhassan/rf-sidechannel-defense}}
 }
 ```
 
