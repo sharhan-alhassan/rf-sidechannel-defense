@@ -29,8 +29,8 @@
  // #include "tensorflow/lite/schema/schema_generated.h"
  
  // ============ CONFIGURATION ============
- #define WIFI_SSID "xxxxx"
- #define WIFI_PASSWORD "xxxxxx"
+ #define WIFI_SSID "CBTECH_OPEN_STARLINK"
+ #define WIFI_PASSWORD "Mamalove@2020"
  
  #define ADC_PIN 34
  #define SDA_PIN 21
