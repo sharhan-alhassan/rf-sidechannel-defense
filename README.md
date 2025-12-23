@@ -391,17 +391,3 @@ Deployment without user consent
 Always obtain proper authorization before deploying security monitoring systems.
 
 
-
-## Questions
-- Which part is the defense or mitigatoin output
-- disconnect wifi
-- add noise if predicated_class != IDLE
-
-```sh
-if (predicted_class != IDLE) {
-    // Mitigation: Add noise to power consumption
-    digitalWrite(MITIGATION_PIN, HIGH);
-    delay(random(10, 50));
-    digitalWrite(MITIGATION_PIN, LOW);
-}
-```
