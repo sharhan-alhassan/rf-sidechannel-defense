@@ -34,7 +34,7 @@
     </td>
     <td width="50%">
       <img src="evaluation/setup_1.jpeg" alt="Physical hardware setup" />
-      <p align="center"><b>Hardware Setup</b><br/>ESP32 + INA219 + OLED display</p>
+      <p align="center"><b>Hardware Setup</b><br/>ESP32 + Resistor (voltage divider) + OLED display</p>
     </td>
   </tr>
 </table>
