@@ -3,8 +3,41 @@
 
 
 ## 📊 Key Results at a Glance
-MetricValueSignificanceOverall Accuracy80.6%Across 6 WiFi activity classesHigh-Risk Detection100% F1-scoreVideo streaming & gaming (privacy-critical)Inference Latency18msReal-time detection capabilityModel Size8KBFits in ESP32 flash (4MB available)RAM Usage25KBMinimal footprint (520KB total available)Hardware Cost$0.102× 10kΩ resistors (voltage divider)Dataset Size180,000 samples30K samples per activity class
+| Metric               | Value            | Significance                                   |
+|----------------------|------------------|------------------------------------------------|
+| Overall Accuracy     | 80.6%            | Across 6 WiFi activity classes                 |
+| High-Risk Detection  | 100% F1-score    | Video streaming & gaming (privacy-critical)    |
+| Inference Latency    | 18 ms            | Real-time detection capability                 |
+| Model Size           | 8 KB             | Fits in ESP32 flash (4MB available)            |
+| RAM Usage            | 25 KB            | Minimal footprint (520KB total available)      |
+| Hardware Cost        | $0.10            | 2× 10kΩ resistors (voltage divider)            |
+| Dataset Size         | 180,000 samples  | 30K samples per activity class                 |
 
+
+## 🖼️ Visual Overview
+
+<table>
+  <tr>
+    <td width="50%">
+      <img src="evaluation/data_preview.png" alt="Raw voltage time series data" />
+      <p align="center"><b>Raw Voltage Data</b><br/>Time-series power consumption patterns</p>
+    </td>
+    <td width="50%">
+      <img src="evaluation/model_comparison.png" alt="Model performance comparison" />
+      <p align="center"><b>Model Comparison</b><br/>Random Forest outperforms others</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="evaluation/data_collection.png" alt="Data collection" />
+      <p align="center"><b>Data Collection</b><br/>Data collection</p>
+    </td>
+    <td width="50%">
+      <img src="evaluation/setup_1.jpeg" alt="Physical hardware setup" />
+      <p align="center"><b>Hardware Setup</b><br/>ESP32 + INA219 + OLED display</p>
+    </td>
+  </tr>
+</table>
 
 ## 🎯 Project Motivation
 The Problem: Side-Channel Attacks on IoT Devices
@@ -28,8 +61,11 @@ Core Idea: Enable IoT devices to monitor their own power consumption and detect 
 ### Key Advantages:
 
 ✅ Zero additional hardware - just firmware update
+
 ✅ Low overhead - mitigation only activates when attack detected
+
 ✅ Privacy-preserving - no cloud dependency, all processing on-device
+
 ✅ Retrofittable - OTA updates to existing device fleets
 
 
